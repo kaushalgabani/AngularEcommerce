@@ -27,6 +27,6 @@ jobs:
       - name: Deploy Pages
         uses: crazy-max/ghaction-github-pages@v3.2.0
         with:
-          build_dir: dist/AngularEcommerce
+          build_dir: dist/ecommerce
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
